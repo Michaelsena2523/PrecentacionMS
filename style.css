@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root{
+    --color-amarillo: hsl(47, 88%, 63%); 
+}
+
+
+.conterne{
+    width: 25%;
+    height: auto;
+    background-color:  hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    transition-duration: 0.8s;
+    border: solid 1px black;
+    
+}
+
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+    
+
+.imagenes{
+   width: 250px;
+   height: 250px;
+   background-image: url(img/div.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.presentacion{
+    width: 68% ;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.titulo1{
+    font-size: 18px;
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.Learning{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+
+
+.img{
+    background-image: url(img/image-avatar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+.titulo2:hover{
+    color: var(--color-amarillo) ;
+    cursor: pointer;
+    
+}
+
+.conterne:hover{
+    box-shadow: 15px 15px black;
+    transform: scale3d(1.5) ;
+    transition-duration: 0.8s;
+}
+
+
+@media (max-width: 600px ){ 
+    .conterne{
+        width: 75%;
+    }
+}
