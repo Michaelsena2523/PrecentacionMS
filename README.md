@@ -3,5 +3,6 @@
 
 if{
      Cout<< "n\  Le dejo ese  afiche para que coloquen sus dato de perfil"; 
- }else 
+ } else {
     exit 
+}
